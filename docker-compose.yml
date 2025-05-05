@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web-crawler:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - .:/app
+    stdin_open: true
+    tty: true 
