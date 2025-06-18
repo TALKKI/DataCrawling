@@ -1,0 +1,13 @@
+.ipynd_checkpoints
+data/
+dist/
+build/
+model/
+*.json
+*.csv
+*.exe
+*.keras
+*.jpg
+*.png
+*.joblib
+*.env*
